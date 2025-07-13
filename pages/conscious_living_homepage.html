@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conscious Living Homepage - Seema Rani Naik | Transform Your Life</title>
+    <meta name="description" content="Begin your transformation journey with Seema Rani Naik. From ordinary to extraordinary - discover your path to conscious living and holistic wellness." />
+    <link rel="stylesheet" href="../css/main.css" />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fseemarani6235back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.5"></script>
+</head>
+<body class="bg-background text-text-primary">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-primary-100">
+        <div class="container-custom">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <svg class="w-10 h-10 text-primary" viewBox="0 0 40 40" fill="currentColor">
+                        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 20c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                        <path d="M20 8v4M20 28v4M8 20h4M28 20h4" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                    <span class="font-headline text-xl font-semibold text-primary">Seema Rani Naik</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="start_your_journey.html" class="font-body text-text-secondary hover:text-primary transition-gentle">Start Your Journey</a>
+                    <a href="about_seema_transformation_story.html" class="font-body text-text-secondary hover:text-primary transition-gentle">Seema's Story</a>
+                    <a href="transformation_services.html" class="font-body text-text-secondary hover:text-primary transition-gentle">Services</a>
+                    <a href="success_stories_gallery.html" class="font-body text-text-secondary hover:text-primary transition-gentle">Success Stories</a>
+                    <a href="community_sanctuary.html" class="font-body text-text-secondary hover:text-primary transition-gentle">Community</a>
+                    <a href="start_your_journey.html" class="btn-primary">Begin Transformation</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="lg:hidden p-2" id="mobile-menu-btn">
+                    <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="lg:hidden hidden" id="mobile-menu">
+                <div class="py-4 space-y-4 border-t border-primary-100">
+                    <a href="start_your_journey.html" class="block font-body text-text-secondary hover:text-primary transition-gentle">Start Your Journey</a>
+                    <a href="about_seema_transformation_story.html" class="block font-body text-text-secondary hover:text-primary transition-gentle">Seema's Story</a>
+                    <a href="transformation_services.html" class="block font-body text-text-secondary hover:text-primary transition-gentle">Services</a>
+                    <a href="success_stories_gallery.html" class="block font-body text-text-secondary hover:text-primary transition-gentle">Success Stories</a>
+                    <a href="community_sanctuary.html" class="block font-body text-text-secondary hover:text-primary transition-gentle">Community</a>
+                    <a href="start_your_journey.html" class="btn-primary w-full text-center mt-4">Begin Transformation</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Image with Parallax -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Seema in natural transformation setting" class="w-full h-full object-cover" loading="eager" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+            <div class="absolute inset-0 bg-gradient-to-r from-primary-900/70 via-primary-800/50 to-transparent"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 container-custom text-center lg:text-left">
+            <div class="max-w-4xl mx-auto lg:mx-0">
+                <h1 class="font-headline text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                    Your extraordinary life is not a destination—
+                    <span class="text-accent-300">it's a conscious choice you make every day</span>
+                </h1>
+                <p class="font-body text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl">
+                    Join thousands who've transformed from ordinary to extraordinary through conscious living, authentic growth, and holistic wellness.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="start_your_journey.html" class="btn-accent text-lg px-8 py-4">Discover Your Path</a>
+                    <a href="about_seema_transformation_story.html" class="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-cta font-medium hover:bg-white/30 transition-gentle">
+                        Seema's Journey
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+            <div class="animate-bounce">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transformation Path Finder -->
+    <section class="section-spacing bg-surface">
+        <div class="container-custom">
+            <div class="text-center mb-12">
+                <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">
+                    Find Your Transformation Path
+                </h2>
+                <p class="font-body text-lg text-text-secondary max-w-2xl mx-auto">
+                    Take our interactive assessment to discover where you are in your journey and receive personalized guidance for your next steps.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="card">
+                    <div class="grid lg:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="font-headline text-2xl font-semibold text-primary mb-4">
+                                Where Are You in Your Journey?
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="p-4 border border-primary-200 rounded-lg hover:bg-primary-50 transition-gentle cursor-pointer" onclick="selectPath('seeker')">
+                                    <h4 class="font-cta font-medium text-primary mb-2">🌱 The Awakening Seeker</h4>
+                                    <p class="font-body text-text-secondary">Feeling stuck and ready for change, but unsure where to start</p>
+                                </div>
+                                <div class="p-4 border border-primary-200 rounded-lg hover:bg-primary-50 transition-gentle cursor-pointer" onclick="selectPath('explorer')">
+                                    <h4 class="font-cta font-medium text-primary mb-2">🗺️ The Conscious Explorer</h4>
+                                    <p class="font-body text-text-secondary">Actively seeking growth tools and deeper self-understanding</p>
+                                </div>
+                                <div class="p-4 border border-primary-200 rounded-lg hover:bg-primary-50 transition-gentle cursor-pointer" onclick="selectPath('transformer')">
+                                    <h4 class="font-cta font-medium text-primary mb-2">🦋 The Active Transformer</h4>
+                                    <p class="font-body text-text-secondary">Making changes but need guidance and community support</p>
+                                </div>
+                                <div class="p-4 border border-primary-200 rounded-lg hover:bg-primary-50 transition-gentle cursor-pointer" onclick="selectPath('leader')">
+                                    <h4 class="font-cta font-medium text-primary mb-2">✨ The Emerging Leader</h4>
+                                    <p class="font-body text-text-secondary">Transformed and ready to help others on their journey</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://images.pixabay.com/photo/2017/08/06/12/06/people-2591874_1280.jpg" alt="Transformation journey visualization" class="w-full h-64 object-cover rounded-lg mb-6" onerror="this.src='https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                            <div id="path-result" class="hidden">
+                                <div class="bg-accent-50 p-6 rounded-lg">
+                                    <h4 class="font-headline text-xl font-semibold text-accent-700 mb-3">Your Recommended Path</h4>
+                                    <p id="path-description" class="font-body text-text-secondary mb-4"></p>
+                                    <a href="start_your_journey.html" class="btn-accent">Start Your Journey</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- From Ordinary to Extraordinary -->
+    <section class="section-spacing">
+        <div class="container-custom">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-6">
+                        From Ordinary to Extraordinary
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-primary font-bold">1</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cta font-semibold text-primary mb-2">The Awakening</h3>
+                                <p class="font-body text-text-secondary">Recognizing that life can be more than just surviving—it can be thriving with purpose and joy.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-secondary-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-secondary font-bold">2</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cta font-semibold text-secondary mb-2">The Journey</h3>
+                                <p class="font-body text-text-secondary">Embracing conscious choices, healing old patterns, and building new foundations for authentic living.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-accent-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <span class="text-accent-700 font-bold">3</span>
+                            </div>
+                            <div>
+                                <h3 class="font-cta font-semibold text-accent-700 mb-2">The Transformation</h3>
+                                <p class="font-body text-text-secondary">Living as your extraordinary self—aligned, empowered, and inspiring others through your authentic presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <a href="about_seema_transformation_story.html" class="btn-primary">Read Seema's Full Story</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616c9c5e8e5?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Seema's transformation journey" class="w-full h-96 object-cover rounded-2xl shadow-contemplative" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    <div class="absolute -bottom-6 -right-6 bg-accent p-4 rounded-xl shadow-elevation">
+                        <div class="text-center">
+                            <div class="font-headline text-2xl font-bold text-white">5000+</div>
+                            <div class="font-body text-sm text-white/90">Lives Transformed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dynamic Testimonials Carousel -->
+    <section class="section-spacing bg-surface">
+        <div class="container-custom">
+            <div class="text-center mb-12">
+                <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">
+                    Real Transformations, Real Stories
+                </h2>
+                <p class="font-body text-lg text-text-secondary max-w-2xl mx-auto">
+                    Hear from individuals who've walked the path from ordinary to extraordinary with Seema's guidance.
+                </p>
+            </div>
+
+            <div class="relative">
+                <div class="overflow-hidden">
+                    <div class="flex transition-transform duration-500 ease-in-out" id="testimonial-slider">
+                        <!-- Testimonial 1 -->
+                        <div class="w-full flex-shrink-0">
+                            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                                <div class="order-2 lg:order-1">
+                                    <div class="card">
+                                        <div class="mb-6">
+                                            <svg class="w-8 h-8 text-accent mb-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                            </svg>
+                                            <blockquote class="testimonial text-xl mb-4">
+                                                "Working with Seema didn't just change my career—it transformed how I see myself. I went from feeling invisible to leading with confidence and purpose."
+                                            </blockquote>
+                                            <div class="flex items-center space-x-4">
+                                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sarah Chen testimonial" class="w-12 h-12 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                                                <div>
+                                                    <div class="font-cta font-semibold text-primary">Sarah Chen</div>
+                                                    <div class="font-body text-sm text-text-secondary">Executive Director, Non-Profit</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bg-primary-50 p-4 rounded-lg">
+                                            <div class="font-cta font-medium text-primary mb-2">Transformation Highlights:</div>
+                                            <ul class="font-body text-sm text-text-secondary space-y-1">
+                                                <li>• Promoted to leadership role within 6 months</li>
+                                                <li>• Overcame imposter syndrome and self-doubt</li>
+                                                <li>• Built authentic confidence and communication skills</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-1 lg:order-2">
+                                    <div class="relative">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sarah's transformation story" class="w-full h-80 object-cover rounded-xl" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                        <div class="absolute top-4 right-4 bg-success text-white px-3 py-1 rounded-full text-sm font-cta">
+                                            6 Month Journey
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="w-full flex-shrink-0">
+                            <div class="grid lg:grid-cols-2 gap-8 items-center">
+                                <div class="order-2 lg:order-1">
+                                    <div class="card">
+                                        <div class="mb-6">
+                                            <svg class="w-8 h-8 text-accent mb-4" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
+                                            </svg>
+                                            <blockquote class="testimonial text-xl mb-4">
+                                                "After my divorce, I felt lost and broken. Seema helped me rebuild not just my life, but my relationship with myself. I'm now thriving as a single mother and entrepreneur."
+                                            </blockquote>
+                                            <div class="flex items-center space-x-4">
+                                                <img src="https://images.unsplash.com/photo-1494790108755-2616c9c5e8e5?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Maria Rodriguez testimonial" class="w-12 h-12 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                                                <div>
+                                                    <div class="font-cta font-semibold text-primary">Maria Rodriguez</div>
+                                                    <div class="font-body text-sm text-text-secondary">Entrepreneur & Mother</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bg-secondary-50 p-4 rounded-lg">
+                                            <div class="font-cta font-medium text-secondary mb-2">Transformation Highlights:</div>
+                                            <ul class="font-body text-sm text-text-secondary space-y-1">
+                                                <li>• Launched successful consulting business</li>
+                                                <li>• Healed from emotional trauma and rebuilt self-worth</li>
+                                                <li>• Created balanced life as single mother</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-1 lg:order-2">
+                                    <div class="relative">
+                                        <img src="https://images.pixabay.com/photo/2017/08/01/11/48/woman-2564660_1280.jpg" alt="Maria's transformation story" class="w-full h-80 object-cover rounded-xl" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                        <div class="absolute top-4 right-4 bg-success text-white px-3 py-1 rounded-full text-sm font-cta">
+                                            1 Year Journey
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <div class="flex justify-center mt-8 space-x-4">
+                    <button onclick="previousTestimonial()" class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-primary-600 transition-gentle">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                        </svg>
+                    </button>
+                    <button onclick="nextTestimonial()" class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center hover:bg-primary-600 transition-gentle">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="success_stories_gallery.html" class="btn-secondary">View All Success Stories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Twilight Organic Integration -->
+    <section class="section-spacing">
+        <div class="container-custom">
+            <div class="text-center mb-12">
+                <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">
+                    Complete Transformation: Inner & Outer Wellness
+                </h2>
+                <p class="font-body text-lg text-text-secondary max-w-3xl mx-auto">
+                    True transformation encompasses every aspect of your being. Discover how Twilight Organic's holistic wellness products support your inner journey with outer nourishment.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Mind Wellness -->
+                <div class="card text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-headline text-xl font-semibold text-primary mb-4">Mind Clarity</h3>
+                    <p class="font-body text-text-secondary mb-6">
+                        Organic herbal blends and adaptogens that support mental clarity, focus, and emotional balance during your transformation journey.
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Organic herbal wellness products" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    <a href="javascript:void(0)" class="text-primary font-cta font-medium hover:text-primary-600 transition-gentle">Explore Mind Wellness →</a>
+                </div>
+
+                <!-- Body Nourishment -->
+                <div class="card text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-headline text-xl font-semibold text-secondary mb-4">Body Vitality</h3>
+                    <p class="font-body text-text-secondary mb-6">
+                        Pure, organic nutrition that energizes your body and supports the physical aspects of your personal transformation.
+                    </p>
+                    <img src="https://images.pixabay.com/photo/2017/05/11/19/44/fresh-2305192_1280.jpg" alt="Organic nutrition and superfoods" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    <a href="javascript:void(0)" class="text-secondary font-cta font-medium hover:text-secondary-600 transition-gentle">Explore Body Wellness →</a>
+                </div>
+
+                <!-- Spirit Connection -->
+                <div class="card text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-headline text-xl font-semibold text-accent-700 mb-4">Spirit Harmony</h3>
+                    <p class="font-body text-text-secondary mb-6">
+                        Sacred rituals and mindful practices enhanced by organic aromatherapy and meditation support products.
+                    </p>
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Organic aromatherapy and meditation products" class="w-full h-48 object-cover rounded-lg mb-4" onerror="this.src='https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    <a href="javascript:void(0)" class="text-accent-700 font-cta font-medium hover:text-accent-800 transition-gentle">Explore Spirit Wellness →</a>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <div class="bg-gradient-to-r from-primary-50 to-secondary-50 p-8 rounded-2xl">
+                    <h3 class="font-headline text-2xl font-semibold text-primary mb-4">
+                        Holistic Transformation Package
+                    </h3>
+                    <p class="font-body text-text-secondary mb-6 max-w-2xl mx-auto">
+                        Combine personal coaching with organic wellness products for a complete mind-body-spirit transformation experience.
+                    </p>
+                    <a href="transformation_services.html" class="btn-primary">Explore Packages</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof & Community Metrics -->
+    <section class="section-spacing bg-surface">
+        <div class="container-custom">
+            <div class="text-center mb-12">
+                <h2 class="font-headline text-3xl lg:text-4xl font-bold text-primary mb-4">
+                    Join a Thriving Community of Transformers
+                </h2>
+                <p class="font-body text-lg text-text-secondary max-w-2xl mx-auto">
+                    You're not alone on this journey. Connect with like-minded individuals who are committed to conscious living and personal growth.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Live Community Count -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <div class="font-headline text-3xl font-bold text-primary mb-2">2,847</div>
+                    <div class="font-body text-text-secondary">Active Community Members</div>
+                    <div class="flex items-center justify-center mt-2">
+                        <div class="w-2 h-2 bg-success rounded-full mr-2"></div>
+                        <span class="font-body text-sm text-success">+23 joined today</span>
+                    </div>
+                </div>
+
+                <!-- Success Stories -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div class="font-headline text-3xl font-bold text-secondary mb-2">1,200+</div>
+                    <div class="font-body text-text-secondary">Documented Transformations</div>
+                </div>
+
+                <!-- Media Recognition -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-accent-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+                        </svg>
+                    </div>
+                    <div class="font-headline text-3xl font-bold text-accent-700 mb-2">50+</div>
+                    <div class="font-body text-text-secondary">Media Features & Awards</div>
+                </div>
+
+                <!-- Years of Impact -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <div class="font-headline text-3xl font-bold text-primary mb-2">8+</div>
+                    <div class="font-body text-text-secondary">Years of Transformation Impact</div>
+                </div>
+            </div>
+
+            <!-- Recent Community Activity -->
+            <div class="bg-white rounded-2xl p-8 shadow-contemplative">
+                <h3 class="font-headline text-2xl font-semibold text-primary mb-6 text-center">
+                    Recent Community Celebrations
+                </h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="flex items-center space-x-4 p-4 bg-success-50 rounded-lg">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Community member success" class="w-12 h-12 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                        <div>
+                            <div class="font-cta font-medium text-success">Lisa M.</div>
+                            <div class="font-body text-sm text-text-secondary">Launched her dream business!</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4 p-4 bg-success-50 rounded-lg">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Community member success" class="w-12 h-12 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                        <div>
+                            <div class="font-cta font-medium text-success">David K.</div>
+                            <div class="font-body text-sm text-text-secondary">Healed relationship with family</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4 p-4 bg-success-50 rounded-lg">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616c9c5e8e5?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Community member success" class="w-12 h-12 rounded-full object-cover" onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;" />
+                        <div>
+                            <div class="font-cta font-medium text-success">Rachel T.</div>
+                            <div class="font-body text-sm text-text-secondary">Overcame 10-year anxiety</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="community_sanctuary.html" class="btn-secondary">Join Our Community</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section-spacing bg-gradient-to-r from-primary to-secondary">
+        <div class="container-custom text-center">
+            <h2 class="font-headline text-3xl lg:text-4xl font-bold text-white mb-6">
+                Your Extraordinary Life Awaits
+            </h2>
+            <p class="font-body text-xl text-white/90 mb-8 max-w-3xl mx-auto">
+                Stop waiting for the perfect moment. Your transformation begins with a single conscious choice. Take the first step toward the life you've always dreamed of living.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="start_your_journey.html" class="btn-accent text-lg px-8 py-4">Start Your Journey Today</a>
+                <a href="transformation_services.html" class="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-cta font-medium hover:bg-white/30 transition-gentle">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-primary text-white section-spacing">
+        <div class="container-custom">
+            <div class="grid lg:grid-cols-4 gap-8 mb-12">
+                <!-- Brand -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <svg class="w-10 h-10 text-accent" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 20c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                            <path d="M20 8v4M20 28v4M8 20h4M28 20h4" stroke="currentColor" stroke-width="1.5"/>
+                        </svg>
+                        <span class="font-headline text-xl font-semibold">Seema Rani Naik</span>
+                    </div>
+                    <p class="font-body text-white/80 mb-6 max-w-md">
+                        Guiding conscious souls from ordinary to extraordinary through authentic transformation, holistic wellness, and community support.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-gentle">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-gentle">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-gentle">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-cta font-semibold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="about_seema_transformation_story.html" class="font-body text-white/80 hover:text-white transition-gentle">About Seema</a></li>
+                        <li><a href="transformation_services.html" class="font-body text-white/80 hover:text-white transition-gentle">Services</a></li>
+                        <li><a href="success_stories_gallery.html" class="font-body text-white/80 hover:text-white transition-gentle">Success Stories</a></li>
+                        <li><a href="community_sanctuary.html" class="font-body text-white/80 hover:text-white transition-gentle">Community</a></li>
+                        <li><a href="start_your_journey.html" class="font-body text-white/80 hover:text-white transition-gentle">Start Journey</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="font-cta font-semibold text-white mb-4">Connect</h3>
+                    <ul class="space-y-3">
+                        <li class="font-body text-white/80">hello@seemaraninaik.com</li>
+                        <li class="font-body text-white/80">+1 (555) 123-4567</li>
+                        <li class="font-body text-white/80">Conscious Living Center<br />San Francisco, CA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/20 pt-8 text-center">
+                <p class="font-body text-white/60">
+                    © 2025 Seema Rani Naik. All Rights Reserved. | Privacy Policy | Terms of Service
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Transformation Path Finder
+        const pathDescriptions = {
+            seeker: "Perfect for beginners ready to explore personal growth. Start with our foundational courses and gentle guidance to discover your authentic self.",
+            explorer: "Ideal for those actively seeking growth tools. Access our comprehensive library and join guided workshops for deeper self-understanding.",
+            transformer: "Great for those making active changes. Get personalized coaching and community support to accelerate your transformation.",
+            leader: "Perfect for transformed individuals ready to guide others. Explore our certification programs and leadership opportunities."
+        };
+
+        function selectPath(pathType) {
+            const resultDiv = document.getElementById('path-result');
+            const descriptionEl = document.getElementById('path-description');
+            
+            descriptionEl.textContent = pathDescriptions[pathType];
+            resultDiv.classList.remove('hidden');
+            
+            // Scroll to result
+            resultDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        // Testimonial Carousel
+        let currentTestimonial = 0;
+        const totalTestimonials = 2;
+
+        function nextTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % totalTestimonials;
+            updateTestimonialSlider();
+        }
+
+        function previousTestimonial() {
+            currentTestimonial = (currentTestimonial - 1 + totalTestimonials) % totalTestimonials;
+            updateTestimonialSlider();
+        }
+
+        function updateTestimonialSlider() {
+            const slider = document.getElementById('testimonial-slider');
+            slider.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+        }
+
+        // Auto-advance testimonials
+        setInterval(nextTestimonial, 8000);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.hero-bg');
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
